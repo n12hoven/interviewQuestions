@@ -27,9 +27,7 @@ def sumNumbers(maxNum):
     sum = 0
     num = 0
     while num <= maxNum:
-        if thirteen(num) == True:
-            numArray.append(num)
-        if thirtyone(num) == True:
+        if thirteen(num) == True or thirtyone(num) == True:
             numArray.append(num)
         num += 1
     for i in numArray:
