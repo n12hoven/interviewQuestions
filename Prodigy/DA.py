@@ -20,7 +20,9 @@ def thirtyone(num):
 
 
 def sumNumbers(maxNum):
-# the sum of 1000
+# the sum of all divisibles
+# of 13 & 31, up to and including
+# the int of maxNum
     numArray = []
     sum = 0
     num = 0
